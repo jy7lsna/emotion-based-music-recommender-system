@@ -13,7 +13,7 @@ import base64
 
 
 
-df = pd.read_csv(r"C:\Users\jyolsna maria joemon\Downloads\Emotion-based-music-recommendation-system-main\Emotion-based-music-recommendation-system-main\muse_v3.csv")
+df = pd.read_csv(r".\muse_v3.csv")
 
 df['link'] = df['lastfm_url']
 df['name'] = df['track']
